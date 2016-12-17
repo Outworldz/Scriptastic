@@ -1,0 +1,384 @@
+﻿/* YUI Reset, adapted */
+td {
+	margin:0;
+	padding:0;
+}
+th {
+	margin:0;
+	padding:0;
+}
+blockquote {
+	margin:0;
+	padding:0;
+}
+p {
+	margin:0;
+	padding:0;
+}
+textarea {
+	margin:0;
+	padding:0;
+}
+input {
+	margin:0;
+	padding:0;
+}
+fieldset {
+	margin:0;
+	padding:0;
+}
+form {
+	margin:0;
+	padding:0;
+}
+pre {
+	margin:0;
+	padding:0;
+}
+h6 {
+	margin:0;
+	padding:0;
+}
+h5 {
+	margin:0;
+	padding:0;
+}
+h4 {
+	margin:0;
+	padding:0;
+}
+h3 {
+	margin:0;
+	padding:0;
+}
+h2 {
+	margin:0;
+	padding:0;
+}
+h1 {
+	margin:0;
+	padding:0;
+}
+li {
+	margin:0;
+	padding:0;
+}
+ol {
+	margin:0;
+	padding:0;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+dd {
+	margin:0;
+	padding:0;
+}
+dt {
+	margin:0;
+	padding:0;
+}
+dl {
+	margin:0;
+	padding:0;
+}
+div {
+	margin:0;
+	padding:0;
+}
+body {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+}
+th {
+	font-style:normal;
+	font-weight:normal;
+}
+strong {
+	font-style:normal;
+	font-weight:normal;
+}
+em {
+	font-style:normal;
+	font-weight:normal;
+}
+code {
+	font-style:normal;
+	font-weight:normal;
+}
+cite {
+	font-style:normal;
+	font-weight:normal;
+}
+caption {
+	font-style:normal;
+	font-weight:normal;
+}
+ul {
+	list-style:none;
+}
+ol {
+	list-style:none;
+}
+th {
+	text-align:left;
+}
+caption {
+	text-align:left;
+}
+h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+h5 {
+	font-size:100%;
+	font-weight:normal;
+}
+h4 {
+	font-size:100%;
+	font-weight:normal;
+}
+h3 {
+	font-size:100%;
+	font-weight:normal;
+}
+h2 {
+	font-size:100%;
+	font-weight:normal;
+}
+h1 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:after {
+	content:'';
+}
+q:before {
+	content:'';
+}
+acronym {
+    border:0;
+}
+
+abbr {
+    border:0;
+}
+
+/* Scratch Layout Styles */
+
+body {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #FFF;
+}
+
+.content{
+    position: relative;
+    width: 200%;
+    height: 100%;
+}
+
+.tab_bar button{
+    float: right;
+}
+
+
+.workspace {
+    position: absolute;
+    left: 15%;
+    bottom: 0px;
+    width: 35%;
+    height: 95%;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+.scripts_text_view {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+    overflow: auto;
+}
+
+.scripts_workspace {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+    overflow: auto;
+}
+
+.scripts_workspace {
+    display: block;
+}
+
+.tab_bar{
+    position: absolute;
+    left: 15%;
+    bottom: 95%;
+    width: 35%;
+}
+
+.tab_bar2{
+    position: absolute;
+    right: 0%;
+    bottom: 95%;
+    width: 50%;
+}
+
+.chrome_tab{
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    bottom: -2px;
+    border: 1px solid #666;
+    border-bottom: 0px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 24%;
+    background-color: #999;
+    color: #333;
+    z-index: 1;
+}
+
+.chrome_tab.selected{
+    background-color: #FFF;
+    color: #000;
+    border-color: #333;
+}
+
+.stage {
+    position: absolute;
+    height: 95%;
+    right: 0px;
+    width: 50%;
+    bottom: 0px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+.block_menu{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    overflow: auto;
+}
+
+.block_menu .select{
+    padding: 3px 10px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    color: #333;
+    background-color: #CCC;
+    border: 1px solid #333;
+}
+
+.block_menu .selected{
+    color: #000;
+    background-color: #EEE;
+}
+
+.option{
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.submenu .wrapper {
+    margin-bottom: 20px;
+    margin-right: 35px;
+    float: left;
+}
+
+.hidden{
+    display: none;
+}
+
+#color_popup{
+    background-color: green;
+    padding: 5px 10px 15px 10px;
+}
+
+#color_contents{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+
+/* Save/Restore Dialogs */
+
+.dialog{
+    background-color: #CCC;
+    font-family: Helvetica;
+    padding: 1em;
+}
+
+.dialog h2{
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dialog input{
+    width: 100%;
+    font-size: 180%;
+    margin-bottom: 1em;
+}
+
+.dialog textarea{
+    width: 100%;
+    height: 5em;
+    font-size: 150%;
+}
+
+.dialog ul{
+    min-width: 400px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.dialog button{
+    font-size: 120%;
+    float: right;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #3F6;
+    color: #333;
+    margin-left: 1em;
+}
+
+.dialog .action{
+    margin-left: .2em;
+    font-size: 90%;
+}
+
+.dialog li{
+    display: block;
+    clear: both;
+    margin-bottom: .5em
+}
+
+.dialog .timestamp{
+    clear: both;
+    font-size: 80%;
+    color: #666;
+}

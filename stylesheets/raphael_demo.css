@@ -1,0 +1,64 @@
+/* block and border colours for different groups of blocks */
+
+.motion{ border-color: hsl(225,65%,78%); }
+.motion > .block{ background-color: hsl(225, 65%, 81%); }
+
+.looks{ border-color: hsl(264,62%,72%); }
+.looks > .block{ background-color: hsl(264,62%,75%); }
+
+.functions{ border-color: hsl(264,62%,72%); }
+.functions > .block{ background-color: hsl(264,32%,75%); }
+
+
+.chat{ border-color: hsl(264,62%,72%); }
+.chat > .block{ background-color: hsl(264,80%,95%); }
+
+
+.flow-control{ border-color: hsl(264,62%,72%); }
+.flow-control > .block{ background-color: hsl(264,80%,95%); }
+
+.transform{ border-color: hsl(296, 65%, 57%); }
+.transform > .block{ background-color: hsl(296, 65%, 77%); }
+
+.sketchy{ border-color: hsl(15,100%,63%); }
+.sketchy > .block{ background-color: hsl(15,100%,83%); }
+
+.events{ border-color: hsl(44, 81%, 54%); }
+.events > .block{ background-color: hsl(44, 81%, 57%); }
+
+.sensing{ border-color: hsl(200,98%,50%); }
+.sensing > .block{ background-color: hsl(200,98%,56%); }
+
+.operators{ border-color: hsl(93,90%,66%); }
+.operators > .block{ background-color: hsl(93,90%,76%); }
+
+.shapes{ border-color: #e66a22; }
+.shapes > .block{ background-color: #e66a22; }
+
+.animation{ border-color: hsl(150, 65%, 79%); }
+.animation > .block {background-color: hsl(150, 62%, 89%); }
+
+.twitter{ border-color: hsl(90, 65%, 79%); }
+.twitter > .block {background-color: hsl(90, 62%, 89%); }
+
+/* Border colours for type values and sockets */
+
+.boolean{ border-color: grey; }
+.number{ border-color: grey; }
+.color{ border-color: grey; }
+.string{ border-color: grey; }
+.string input{ min-width: 10em; }
+
+.spinner {
+   background-image: url(/images/spinner.gif) ;
+   background-repeat: no-repeat;
+   height:200px;
+   width: 200px;
+   z-index: 9999;
+   position:fixed;
+   top: 50%;
+   left: 50%;
+  /*  margin-top: -100px; /*set to a negative number 1/2 of your height*/
+   /* margin-left: -100px; /*set to a negative number 1/2 of your width*/
+
+}

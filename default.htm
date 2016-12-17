@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ScripTastic</title>
+    <link href="stylesheets/workspace.css" rel="stylesheet" />
+    <link href="stylesheets/blocks.css" rel="stylesheet" />
+    <link href="stylesheets/raphael_demo.css" rel="stylesheet" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" type="image/x-ico" href="/favicon.ico" />
+
+    <meta name="viewport" content="height=device-height, initial-scale=1.0" />
+
+<style type="text/css">
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+   font-size: 3;
+}
+</style>
+
+
+<!-- Jquery -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+
+<!-- Google analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-219246-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+  </head>
+  <body>
+
+<div class="spinner"></div>
+  <br>
+    <div class="content">
+        <div class="block_menu">
+            <section class="submenu">
+            <a href="/"><img alt="Scriptastic" src="images/Logo.jpg" width="281" height="64"> Home</a>
+
+
+            </section>
+            <section class="submenu">
+                <h3 class="select selected"><span class="style1">About</span></h3>
+                <div class="option">
+
+                    <font color=Blue><b>ScripTastic</b></font> lets you do &quot;interesting
+					things&quot; with no scripting knowledge. I've modified it to control my
+					<a href="/Secondlife/posts/prim-compiler/">
+					Prim Animator // Open sourceCompiler</a>,
+					and it now has dozens more events, commands and controls for Second Life&trade; and OpenSim. ~ Ferd
+					<ul style="margin-left: 20px;">
+
+					<li>Here are some <a href="examples.htm">examples</a> of Prim animation, a Tip Jar, playing sounds and other uses.
+               <li >For a quick video tour by Rich White <a href=http://www.youtube.com/watch?v=mHWNYiovgyU target=_blank>
+					watch this</a>.
+					</ul>
+				Credits: Scriptastic was originally created by <a href="http://www.greenbushlabs.com/LabsBlog/?page_id=907">Rich White</a> of <a href="http://labs.greenbush.us">Greenbush Labs</a> and generously contributed to the Open Source community.
+ScripTastic is similar to <a href="http://web.mit.edu/~eric_r/Public/S4SL/">Scratch for Second Life</a> but requires no download.
+                 </div>
+
+
+            </section>
+        </div>
+        <div class="tab_bar">
+            <div class="scripts_workspace_tab chrome_tab selected">Blocks</div>
+            <div class="scripts_text_view_tab chrome_tab">LSL Script</div>
+            <button class="check_scripts">Check Script</button>
+            <button class="clear_scripts">Clear script</button>
+        </div>
+        <div class="workspace">
+            <div class="scripts_workspace"></div>
+            <div class="scripts_text_view"></div>
+        </div>
+    </div>
+
+
+    <script src="lib/jquery-1.5.1.min.js"></script>
+    <script src="lib/jquery.hotkeys.js"></script>
+    <script src="lib/raphael-1.3.1-min.js"></script>
+    <script src="lib/raphael-path.js"></script>
+    <script src="lib/jquery.bpopup-0.5.1.min.js"></script>
+    <script src="lib/sketchy.js"></script>
+    <script src="lib/colorwheel.js"></script>
+    <script src="lib/json2.js"></script>
+    <script src="scripts/drag.js"></script>
+    <script src="scripts/blocks.js"></script>
+    <script src="scripts/runtime.js"></script>
+    <script src="scripts/workspace.js"></script>
+    <script src="scripts/raphael_demo.js"></script>
+  </body>
+</html>
